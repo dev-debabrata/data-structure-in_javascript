@@ -33,8 +33,8 @@ function sameFrequency(num1, num2) {
     }
     return true;
 }
-sameFrequency(182, 281) // true
-sameFrequency(34, 14) // false
-sameFrequency(3589578, 5879385) // true
-sameFrequency(22, 222) // false
+console.log(sameFrequency(182, 281)); // true
+console.log(sameFrequency(34, 14)); // false
+console.log(sameFrequency(3589578, 5879385)); // true
+console.log(sameFrequency(22, 222)); // false
 

@@ -39,6 +39,6 @@ function constructNote(message, letters) {
     return true;
 }
 
-constructNote('aa', 'abc') // false
-constructNote('abc', 'dcba') // true
-constructNote('aabbcc', 'bcabcaddff') // true
+console.log(constructNote('aa', 'abc')); // false
+console.log(constructNote('abc', 'dcba')); // true
+console.log(constructNote('aabbcc', 'bcabcaddff')); // true

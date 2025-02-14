@@ -39,11 +39,11 @@ function validAnagram(first, second) {
     return true;
 }
 
-validAnagram('', '') // true
-validAnagram('aaz', 'zza') // false
-validAnagram('anagram', 'nagaram') // true
-validAnagram("rat", "car") // false) // false
-validAnagram('awesome', 'awesom') // false
-validAnagram('amanaplanacanalpanama', 'acanalmanplanpamana') // false
-validAnagram('qwerty', 'qeywrt') // true
-validAnagram('texttwisttime', 'timetwisttext') // true
+console.log(validAnagram('', '')); // true
+console.log(validAnagram('aaz', 'zza')); // false
+console.log(validAnagram('anagram', 'nagaram')); // true
+console.log(validAnagram("rat", "car")); // false) // false
+console.log(validAnagram('awesome', 'awesom')); // false
+console.log(validAnagram('amanaplanacanalpanama', 'acanalmanplanpamana')); // false
+console.log(validAnagram('qwerty', 'qeywrt')); // true
+console.log(validAnagram('texttwisttime', 'timetwisttext')); // true

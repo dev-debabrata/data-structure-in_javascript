@@ -29,10 +29,10 @@ function isSubsequence(str1, str2) {
     return false;
 }
 
-isSubsequence('hello', 'hello world'); // true
-isSubsequence('sing', 'sting'); // true
-isSubsequence('abc', 'abracadabra'); // true
-isSubsequence('abc', 'acb'); // false (order matters)
+console.log(isSubsequence('hello', 'hello world')); // true
+console.log(isSubsequence('sing', 'sting')); // true
+console.log(isSubsequence('abc', 'abracadabra')); // true
+console.log(isSubsequence('abc', 'acb')); // false (order matters)
 
 // Recursive but not o(1)
 // function isSubsequence(str1, str2){
@@ -41,7 +41,7 @@ isSubsequence('abc', 'acb'); // false (order matters)
 //     if(str2[0] === str1[0]) return isSubsequence(str1.slice(1), str2.slice(1))
 //         return isSubsequence(str1, str2.slice(1))
 // }
-// isSubsequence('hello', 'hello world'); // true
-// isSubsequence('sing', 'sting'); // true
-// isSubsequence('abc', 'abracadabra'); // true
-// isSubsequence('abc', 'acb'); // false (order matters)
+// console.log(isSubsequence('hello', 'hello world')); // true
+// console.log(isSubsequence('sing', 'sting')); // true
+// console.log(isSubsequence('abc', 'abracadabra')); // true
+// console.log(isSubsequence('abc', 'acb')); // false (order matters)
